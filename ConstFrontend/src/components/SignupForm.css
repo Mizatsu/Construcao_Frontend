@@ -26,6 +26,7 @@ input {
 }
 
 button {
+    color: white;
     display: block; 
     margin: 10px auto; 
 }

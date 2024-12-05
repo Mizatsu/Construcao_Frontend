@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Signup from './pages/Signup';
 import Items from './pages/Items';
+import NotFound from './pages/404NotFound';
 
 const App = () => {
     return (
@@ -13,6 +14,7 @@ const App = () => {
                 <Route path="/" element={<Home />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/items" element={<Items />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
         </Router>
     );
