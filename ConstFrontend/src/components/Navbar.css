@@ -1,0 +1,42 @@
+.navbar {
+    background: url('../assets/RectLight.svg');
+    background-position: bottom;
+    background-size: 100%;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    z-index: 1000;
+    display: flex;
+    align-items: start;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+ul li {
+    margin: 0 15px;
+}
+ul li a {
+    color: rgb(123, 137, 139);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: darkgray
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    height: 50px;
+    width: auto;
+    filter: invert(1);
+}

@@ -1,0 +1,16 @@
+ul {
+    margin-left: -30px;
+}
+
+ul li {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+ul li button {
+    background: url('../assets/Button.svg');
+    background-size: 100%;
+    background-position: bottom;
+    filter: hue-rotate(160deg);
+    padding: 0.5em 1.0em;
+    font-size: 1.0em;
+}
