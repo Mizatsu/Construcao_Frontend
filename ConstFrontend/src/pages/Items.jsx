@@ -31,7 +31,7 @@ const Items = () => {
                 {items.map((item, index) => (
                     <li key={index}>
                         {item} 
-                        <button onClick={() => handleRemoveItem(index)}>Remove</button>
+                        <button onClick={() => handleRemoveItem(index)}>Remover</button>
                     </li>
                 ))}
             </ul>
